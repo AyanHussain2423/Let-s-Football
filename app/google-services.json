@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "906523898768",
+    "project_id": "let-sfootball",
+    "storage_bucket": "let-sfootball.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906523898768:android:2930cd87451f30e237f915",
+        "android_client_info": {
+          "package_name": "com.example.letsfootball"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRjF4bGS4OyLbsEe2UM7smRrrKd2mY8MI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
