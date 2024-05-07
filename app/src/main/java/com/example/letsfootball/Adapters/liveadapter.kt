@@ -47,18 +47,25 @@ class liveadapter(private val homelist: MutableList<homelive>,
                 }
             }
         }
-        if (position < updatelist.size && position < completelist.size) {
+        if (position < updatelist.size) {
             with(holder) {
                 with(updatelist[position]) {
                     binding.liveupdates.text = this.updateliv.toString()
-                    if (this.updateliv.toString() == "null") {
+                    if (this.updateliv.toString()=="null"){
                         binding.constrainliv.visibility = View.GONE
-                    } else {
+                    }
+                    else{
                         binding.constrainliv.visibility = View.VISIBLE
                     }
                 }
+            }
+        }
+        if (position < completelist.size) {
+            with(holder) {
                 with(completelist[position]) {
-
+                    if (this.complete.toString()=="true"){
+                        binding.constrainliv.visibility = View.GONE
+                    }
                 }
             }
         }
